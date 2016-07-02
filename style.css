@@ -1,0 +1,70 @@
+body {
+	background: #d61b2b;
+	margin: 0;
+}
+
+img {
+	float: left;
+	padding-top: 4px;
+	width: 313;
+	height:76px;
+}
+h1 {
+	margin: auto;
+	padding: 12px 313px 13px 0px;
+	background-color: #DDDDDD;
+	text-align: center;
+	font-family: 'Arvo', serif;
+	font-size: 48px;
+	text-decoration: underline;
+}
+.content {
+	background-color: #d61b2b;
+}
+.instructions {
+	width: 600px;
+	padding: 20px;
+	font-family: 'Arvo', serif;
+	margin: auto;
+}
+.instructions h2 {
+	color: #DDDDDD;
+	text-align: left;
+	margin: 0 0 10px 0;
+	border-bottom: 1px	solid	#222222;
+	font-size: 32px;
+}
+
+.instructions ol {
+	font-family: 'Oxygen', sans-serif;
+	color: #222222;
+	font-size: 22px;
+	padding: 0 0 15px 20px;
+}
+
+.instructions p {
+	font-family: 'Oxygen', sans-serif;
+	color: #222222;
+	padding: 0 0 15px 20px;
+	font-size: 22px;
+}
+
+.submit {
+	background: #d61b2b;
+	text-align: center;
+	margin: auto;
+	padding-top: 20px;
+}
+
+.feedback {
+	background: #d61b2b;
+	color: #DDDDDD;
+	font-family: 'Oxygen', sans-serif;
+	text-align: center;
+	margin: auto;
+	padding-top: 10px;
+}
+
+.feedback input {
+	margin: 10px 15px 15px 15px;
+}
