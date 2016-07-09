@@ -4,34 +4,39 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Oxygen:300' rel='stylesheet' type='text/css'>
+		<script src="jquery/dist/jquery.min.js"></script>
+		<!-- <script src="main.js"></script> -->
+		<script src="guessing-game.js"></script>
 	</head>
 	<body>
-		<img src="Images/logo.png">
-		
-		<h1>Guessing Game!</h1>
-		<div class="content">
-		<div class="instructions">
-			<h2>Objective:</h2>
-			<p>Guess the randomly generated number between 0 and 100.</p>
-
-			<h2>Rules:</h2>
-			<ol>
-				<li>You only have 5 guesses</li>
-				<li>You are "hot" if your guess is within 25 of the actual number.</li>
-			</ol>
+		<img src="Images/logo.png"> <!-- FullStack Logo -->
+		<h1>Guessing Game!</h1> <!-- Page title -->			<div class="instructions">
+				<h2>Objective:</h2>
+				<p>Guess the randomly generated number between 0 and 100.</p>
+			</div>
+			<div class="rules">
+				<h2>Rules:</h2>
+				<ol>
+					<li>You only have 5 guesses</li>
+					<li>You're "warm" if your guess is within 25 of the actual number.</li>
+				</ol>
+			</div>
+			<div class="buttons">
+				<div class="submit">
+					<input type="text" id="guess" placeholder="Enter your guess here" />
+					<button>Check Your Guess!</button>
+				</div>
+				<div class="feedback">
+					<h2></h2>
+					<button class="restart">Play Again</button>
+					<button class="hint">Get a Hint</button>
+					<h3>You have 5 guesses remaining.</h3>
+				</div>
+			</div>
 		</div>
-
-		<div class="submit">
-			<input type="text" placeholder="Enter your guess here" />
-			<input type="submit" value="Submit">
-		</div>
-
-		<div class="feedback">
-			<h2>***Hot/Cold Indication***</h2>
-			<input type="button" value="Play Again">
-			<input type="button" value="Get a Hint">
-		</div>
-		</div>
-
 	</body>
 </html>
+
+
+
+<!-- things to add: check to see if guess was made before, better hints, cool winning screen -->
